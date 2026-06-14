@@ -135,3 +135,32 @@ a {
   color: #555555;
   text-align: center;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+  align-self: flex-end;
+}
